@@ -5,7 +5,7 @@ var z = Math.floor((Math.random() * 256) + 1);
 function bgColor() {
   var randomColor = "rgb(" + x + "," + y + "," + z + ")";
   console.log(randomColor);
-  document.body.style.backgroundColor = randomColor;
+  document.body.style.background = randomColor;
 }
 /*Question 1:
 function myName() {
